@@ -1,4 +1,4 @@
-# Pruebas para el parámetro "name" en la creación de un kit
+# Pruebas para el parámetro "name" en la creación de un kit para la aplicación Urban.Grocers
 
 # Requerimientos: 
 -Instalación del paquete pytest. 
@@ -66,3 +66,9 @@ Para crear una nueva prueba se deben de seguir los siguientes requisitos:
 Se recomienda que las pruebas tengan nombres claros sobre lo que se estpa evaluando. 
 Para las pruebas se puede utilizar la función positive_assert, negative_assert o negative_assert_no_name, dependiendo del resultado 
 que se espera obtener en cada prueba.  
+
+
+# Documentación 
+La documentación utilizada para este proyecto es la API Urban Grocers 
+
+
