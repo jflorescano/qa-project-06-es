@@ -18,4 +18,12 @@ def post_new_client_kit(kit_body, auth_token):
 
 
 def get_kits_table():
-    return requests.get(configuration.URL_SERVICE + configuration.KITS_TABLE_PATH)
+    response = requests.get(configuration.URL_SERVICE + configuration.KITS_TABLE_PATH)
+    table_data = response.content.decode('utf-8').split('\n')
+    kits_number = len([row for row in table_data if row.strip()]) - 1
+    return kits_number
+
+
+
+
+

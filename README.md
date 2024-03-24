@@ -36,6 +36,7 @@ dabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabc
  
 -Prueba 9: Se ha pasado un tipo de parámetro diferente (número), para esta prueba se utiliza el nombre: 123 
 
+
 # Usuario 
 Para realizar las pruebas para el parámetro "name" al crear un nuevo kit, se esta considerando que la creación de un nuevo usuario ha 
 sido existosa y se creado un authToken, para esto el parámetro "user_body", debe de contener la siguiente informacion: 
@@ -45,6 +46,9 @@ user_body = {
     "address": "123 Elm Street, Hilltop"
 }
 Al utilizar este user_body se garantiza la creación exitosa de un nuevo usuario y se puede evaluar el nombre del kit. 
+
+# Archivo data.py
+En este archivo se encuentra las parámetros de entrada que se utilizaran para cada prueba al igual que los datos para la creación del usuario. 
 
 # Instrucciones sobre las funciones 
 Para realizar las pruebas se cuenta con tres funciones:
