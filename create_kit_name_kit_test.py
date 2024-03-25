@@ -16,7 +16,6 @@ def positive_assert(kit_name):
     assert new_user_response.status_code == 201
     assert kit_response.status_code == 201
     assert new_user_response.json()["authToken"] != ""
-    print(f"Intentando crear kit con el nombre: {kit_name}")
     update_kit_table = sender_stand_request.get_kits_table()
     assert update_kit_table == initial_kit_table + 1
 
